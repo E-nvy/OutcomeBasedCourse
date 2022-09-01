@@ -1,0 +1,4 @@
+#!/home/envy/.pyenv/versions/3.7.13/envs/venv/bin/python
+import pydoc
+if __name__ == '__main__':
+      pydoc.cli()

@@ -37,7 +37,6 @@ Installation of Requirements
 
 ```bash
 sudo apt install apache2 mysql-server python3 python3-pip python3-mysqldb libldap2-dev libmysqlclient-dev python3.7-dev 
-sudo python3 -m pip install -r requirements.txt
 ```
 
 Steps for installation of OutcomeBasedCourse:
@@ -45,6 +44,11 @@ Steps for installation of OutcomeBasedCourse:
 1. Clone the repository [OutcomeBasedCourse](https://github.com/GreatDevelopers/OutcomeBasedCourse).
 
         git clone https://github.com/GreatDevelopers/OutcomeBasedCourse
+        
+2. Activate virtual environment to avoid downloading all the pip packages:
+	
+	```cd OutcomeBasedCourse```
+	```source venv/bin/activate```
 
 1. Create a database for OutcomeBasedCourse.
 
